@@ -41,17 +41,17 @@ A single template tag is available and must be placed somewhere (anywhere) withi
 #### Example
 
 
- `{exp:safecracker
-    channel="channel_name"
-    other parameters...}
+     {exp:safecracker
+        channel="channel_name"
+        other parameters...}
 
-{exp:dm_safesharpener
-    allowed_fields="title|profile"
-    allowed_fields_1="expiration_date|admin_notes|store_credits"}
+    {exp:dm_safesharpener
+        allowed_fields="title|profile"
+        allowed_fields_1="expiration_date|admin_notes|store_credits"}
 
- ... your form here ...
+     ... your form here ...
 
-{/exp:safecracker}`
+    {/exp:safecracker}
 
 #### Parameters
 
